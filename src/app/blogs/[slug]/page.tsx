@@ -23,7 +23,7 @@ interface ISingleBlog {
 }
 
 const SingleBlogData = async ({ params }: { params: { slug: string } }) => {
-  const { slug } = params;
+  const { slug } = await params;
   const blogsData = `*[_type=="post" && slug.current == "${slug}" ] {
     title,summary,mainImage,content,  publishDate, readTime, author->{bio,name,image}
 }[0]`;
