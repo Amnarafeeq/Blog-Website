@@ -21,8 +21,12 @@ interface ISingleBlog {
   publishDate: string;
   readTime: number;
 }
+interface IPageProps {
+  params: Promise<{ slug: string }>;
+  // other properties...
+}
 
-const SingleBlogData = async ({ params }: { params: { slug: string } }) => {
+const SingleBlogData = async ({ params }:IPageProps) => {
   const { slug } = await params;
   const blogsData = `*[_type=="post" && slug.current == "${slug}" ] {
     title,summary,mainImage,content,  publishDate, readTime, author->{bio,name,image}
