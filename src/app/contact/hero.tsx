@@ -9,7 +9,7 @@ const Hero = () => {
         <Header />
       </div>
       <Image
-        src="/images/contact1.jpg"
+        src="/Images/contact1.jpg"
         alt="About"
         width={1200}
         height={900}

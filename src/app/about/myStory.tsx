@@ -28,7 +28,7 @@ const MyStory = () => {
         </div>
       </div>
       <Image
-        src="/images/about3.jpg"
+        src="/Images/about3.jpg"
         alt="hero"
         width={1200}
         height={800}

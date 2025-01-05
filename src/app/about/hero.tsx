@@ -8,7 +8,7 @@ const Hero = () => {
         <Header />
       </div>
       <Image
-        src="/images/about1.jpg"
+        src="/Images/about1.jpg"
         alt="About"
         width={500}
         height={600}

@@ -40,11 +40,11 @@ const GetInTouch = () => {
         </div>
         <Button btnText="Submit" />
       </div>
-      <div className="lg:w-[45%] lg:h-[85%] bg-slate-300 ">
+      <div className="lg:w-[45%] lg:h-[85%] ">
         <Image
           width={500}
           height={400}
-          src="/images/contact2.jpg"
+          src="/Images/contact2.jpg"
           alt="contact"
           className="w-full h-full object-cover"
         />

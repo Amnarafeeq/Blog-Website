@@ -9,7 +9,7 @@ const BlogHeroSec = () => {
         <Header />
       </div>
       <Image
-        src="/images/blog.jpg"
+        src="/Images/blog.jpg"
         alt="About"
         width={1200}
         height={900}
