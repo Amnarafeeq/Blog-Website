@@ -23,7 +23,7 @@ const Intro = () => {
         />
       </div>
       <div className="lg:w-[40%]   flex flex-col justify-evenly  max-lg:gap-y-7 max-lg:mt-5 max-lg:px-5 lg:h-screen">
-        <h3 className="text-3xl lg:text-5xl leading-relaxed font-bold">
+        <h3 className="text-xl sm:text-3xl lg:text-5xl leading-relaxed font-bold">
           I’m Emily Carter, a Fashion Expert and a Professional Writer
         </h3>
         <p className="leading-normal">

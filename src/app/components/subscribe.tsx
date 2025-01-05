@@ -7,10 +7,10 @@ const Subscribe = () => {
     <>
       <div className="w-full lg:h-screen bg-[#4b0005] flex max-lg:flex-col-reverse justify-evenly items-center max-lg:mt-5 max-lg:p-5">
         <div className="lg:w-[45%] lg:h-[60%] flex flex-col  gap-y-6 ">
-          <h5 className="text-[45px] text-white leading-normal font-bold">
+          <h5 className="text-3xl sm:text-[45px] text-white leading-normal font-bold">
             Don't Miss Out on the Latest Fashion Trends!
           </h5>
-          <p className="text-white">
+          <p className="text-white max-sm:text-sm">
             Stay ahead and elevate your style with the hottest fashion trends.
             Don’t miss the chance to redefine your wardrobe with elegance and
             flair!

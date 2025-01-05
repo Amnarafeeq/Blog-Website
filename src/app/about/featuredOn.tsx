@@ -7,7 +7,7 @@ const FeaturedOn = () => {
   return (
     <div className="w-full bg-[#ff4d6d] py-5 space-y-8 text-white">
       <h4 className="text-center text-3xl font-bold">Featured On</h4>
-      <div className=" flex justify-evenly max-[340px]:flex-col flex-wrap gap-x-5 gap-y-5 text-xl ">
+      <div className=" flex justify-evenly max-[490px]:flex-col flex-wrap gap-x-14 gap-y-5 text-xl ">
         <span className="flex flex-col items-center">
           <FaBookOpen className="text-7xl" /> Vogue{" "}
         </span>

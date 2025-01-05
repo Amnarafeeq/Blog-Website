@@ -39,7 +39,7 @@ const Header = () => {
         </ul>
       </div>
       <Sheet>
-        <SheetTrigger className="p-5 md:hidden">
+        <SheetTrigger className="p-2 sm:p-5 md:hidden">
           <GiHamburgerMenu className="text-3xl text-white" />{" "}
         </SheetTrigger>
         <SheetContent>

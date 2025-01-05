@@ -24,8 +24,8 @@ const LatestBlogs = async () => {
     .fetch(FPosts)
     .then((data) => data.slice(0, 6));
   return (
-    <div className="w-full p-10 bg-[#fff8fc] ">
-      <h2 className="text-4xl font-extrabold text-center">Latest Blog Posts</h2>
+    <div className="w-full  sm:p-10 bg-[#fff8fc] ">
+      <h2 className="text-4xl mt-10 font-extrabold text-center text-customRed ">Latest Blog Posts</h2>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
         {posts.map((post) => (
           <div
@@ -39,7 +39,7 @@ const LatestBlogs = async () => {
               alt={post.title}
               className="mt-4 w-full  object-cover "
             />
-            <div className="mt-2 text-sm text-gray-500 flex justify-between mb-3">
+            <div className="mt-2 text-xs sm:text-sm text-gray-500 flex justify-between mb-3">
               <p>
                 Published on: {new Date(post.publishDate).toLocaleDateString()}
               </p>

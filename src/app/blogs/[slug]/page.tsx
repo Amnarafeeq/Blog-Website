@@ -36,7 +36,7 @@ const SingleBlogData = async ({ params }:IPageProps) => {
   return (
     <div className="bg-[#fff8fc]">
       <BlogsHeader />
-      <div className="w-[90%] mx-auto bg-white shadow-lg my-8 space-y-8">
+      <div className="w-[90%] mx-auto bg-white shadow-lg my-8 sm:space-y-8">
         <Image
           width={800}
           height={400}
@@ -44,20 +44,20 @@ const SingleBlogData = async ({ params }:IPageProps) => {
           alt={blogs.title}
           className="w-full h-[400px] object-cover rounded-md p-"
         />
-        <div className="mt-2 text-sm text-gray-500 flex justify-between px-8">
+        <div className="mt-2 text-xs sm:text-sm text-gray-500 flex justify-between px-3 sm:px-8">
           <p>
             Published on: {new Date(blogs.publishDate).toLocaleDateString()}
           </p>
           <p>Read time: {blogs.readTime} minutes</p>
         </div>
-        <div className="p-8 space-y-4">
-          <h1 className="text-4xl font-extrabold leading-tight text-red-800">
+        <div className="p-4 sm:p-8 space-y-2 sm:space-y-4">
+          <h1 className="text-2xl sm:text-4xl font-extrabold leading-tight text-red-800">
             {blogs.title}
           </h1>
-          <p className="text-lg text-gray-600">{blogs.summary}</p>
-
-          <PortableText value={blogs.content} components={CustomComponents} />
-
+          <p className="text-xs sm:text-lg text-gray-600">{blogs.summary}</p>
+            {/* <div className="max-sm:text-sm"> */}
+          <PortableText value={blogs.content} components={CustomComponents}/>
+          {/* </div> */}
           <div className="flex flex-col gap-y-5 mt-8 border-t pt-5">
             <div className="flex items-center space-x-4">
               <Image 

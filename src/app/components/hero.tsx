@@ -26,7 +26,7 @@ const HeroSec = () => {
           meets passion.
         </p>
       </div>
-      <div className="w-full flex justify-evenly items-end absolute top-[32rem] sm:top-[28rem] md:h-[400px] bg-red- max-sm:gap-x-4 max-sm:p-0 max-md:p-2">
+      <div className="w-full flex justify-evenly items-end absolute top-[32rem] sm:top-[28rem] md:h-[400px] bg-red- max-sm:gap-x-4 max-sm:p-0 max-md:p-4">
         <Image
           src="/Images/hero1.jpg"
           alt="banner"

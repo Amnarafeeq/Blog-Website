@@ -14,7 +14,7 @@ const Hero = () => {
         height={600}
         className="w-full  object-cover"
       />
-      <h3 className="absolute text-3xl md:text-6xl font-bold top-0 w-full h-full bg-[#601c1a] bg-opacity-70 flex items-center r text-white pl-6">
+      <h3 className="absolute text-2xl sm:text-6xl font-bold top-0 w-full h-full bg-[#601c1a] bg-opacity-70 flex items-center r text-white pl-6">
         About Me
       </h3>
     </div>

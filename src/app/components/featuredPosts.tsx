@@ -24,8 +24,8 @@ const FeaturedPosts = async () => {
 
   return (
     <>
-      <div className="w-full p-10 pt-[20rem] bg-[#fff8fc] ">
-        <h2 className="text-4xl font-extrabold mb-6 ">Featured Posts</h2>
+      <div className="w-full  max-[480px]:pt-[10rem] pt-[20rem] bg-[#fff8fc] ">
+        <h2 className="text-center text-4xl font-extrabold mb-6 ">Featured Posts</h2>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
           {posts.map((post) => (
             <div
@@ -39,7 +39,7 @@ const FeaturedPosts = async () => {
                 alt={post.title}
                 className="mt-4 w-full h-64 object-cover "
               />
-              <div className="mt-2 text-sm text-gray-500 flex justify-between mb-3">
+              <div className="mt-2 text-xs sm:text-sm text-gray-500 flex justify-between mb-3">
                 <p>
                   Published on:{" "}
                   {new Date(post.publishDate).toLocaleDateString()}
